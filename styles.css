@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* -----------------HEADING SECTION------------------  */
+
+.section_heading {
+  background-image: url("images/crop_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.navbar {
+  margin: 0;
+  padding: 5% 5%;
+  width: 100%;
+  position: static;
+}
+
+.navbar-nav {
+  margin-left: 430px;
+}
+
+.nav-item {
+  padding-left: 5%;
+  padding-right: 3%;
+}
+
+.navbar-link {
+  padding-left: 20px;
+  color: #7f7f7f;
+  font-size: 1.2rem;
+  font-family: "kumbh-sans", sans-serif;  
+  /* transition: 0.1s ease-in-out; */
+}
+
+.navbar-link:hover{
+  text-decoration: none;
+  color: #000;
+  transition: 0.1s ease-in-out;
+  font-size: 1.25rem;
+}
+
+.logo{
+  font-size: 1.7rem;
+  /* font-family: "Montserrat", sans-serif;  */
+  background-color: #ff0844;
+  background-image: linear-gradient(to top, #050505 0%, #696969 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+#logo-img{
+  height: 60px;
+  width: 60px;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-family: "Langar", cursive;
+  color: black;
+}
+
+h1 {
+  line-height: 1.5;
+  width: 60%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 35px;
+  padding-top: 22%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+
+.download-desc{
+  padding-left: 11%;
+  padding-bottom: 1%;
+  font-size: 1.3rem;
+}
+
+.intro-description{
+  height: 500px;
+}
+
+.btn{
+  margin-left: 11%;
+  padding-left: 3%;
+  padding-right: 5%;
+  background:linear-gradient(to top right, #0c0c0c 0%, #CDCDCD 100%);
+  border: none;
+}
+
+.package-img{
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+.btn:hover{
+  border: 2px solid rgb(10, 182, 62);
+  background: transparent;
+  color: #000;
+}
+
+#intro-img{
+  height: 400px;
+  width: 330px;
+  margin-left: 32%;
+}
+
+.row{
+  margin: 0;
+}
+
+#image-container{
+  border: 1px solid;
+  border-radius: 30px;
+  width: 80%;
+}
+
+@media screen and(max-width: 768px){
+  #intro-img{
+    display: none;
+  }
+}
+
+/* ------------------SERVICES Section ------------------*/
+
+#Services {
+  height: 600px;
+    text-align: center;
+    background:linear-gradient(to top right, #ffffff 0%, #CDCDCD 100%);
+  }
+  
+  h2 {
+    padding-top: 10%;
+    /* margin-top: 20px; */
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  #creative-icon {
+    height: 70px;
+    width: 70px;
+  }
+  
+  .row-services {
+    padding: 4% 3%;
+    text-align: center;
+  }
+  
+  .services-heading {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .services-section {
+    padding: 5%;
+  }
+  
+  p {
+    color: #3b3b3b;
+  }
+  
+
+/* -------------------GALLERY Section-------------------- */
+
+.gallery-heading {
+  /* background: linear-gradient(to bottom, #000000 0%,#898989 100%); */
+  background-color: #000;
+  margin: 0;
+  padding: 1%;
+  color: white;
+}
+
+.carousel-item {
+  height: 700px;
+}
+
+#gallery {
+  text-align: center;
+}
+
+.gallery-h3 {
+  color: #fff;
+  padding: 5% 5%;
+}
+
+.row-image{
+  padding: 0%;
+}
+
+.image-title {
+  color: #000;
+  font-size: 1.6rem;
+  font-family: "Langar", cursive;
+  z-index: 10;
+}
+
+.image-description {
+  font-size: 1rem;
+  color: #3e3e3e;
+}
+
+.galley-images{
+  padding: 0%;
+}
+
+.image-carousel {
+  opacity: 1;
+  height: 350px;
+  /* border: 3px solid; */
+  transition: 0.2s ease-in;
+  opacity: 0.4;
+}
+
+.image-carousel:hover{
+  transform: scale(1.175);
+  transition: 0.2s ease;
+  cursor: pointer;
+  opacity: 1;
+}
+
+/* ---------------------CONTACT Section-------------- */
+
+#contact{
+    height: 300px;
+    background:linear-gradient(to top right, #ffffff 0%, #CDCDCD 100%);
+    text-align: center;
+}
+
+.contact-heading{
+    text-align: center;
+    padding-top: 4%;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.social-links-heading{
+  font-size: 0.9rem;
+  color: #1d1d1ddc;
+}
+
+.a-contact{
+  text-decoration: none;
+  color: rgba(36, 33, 33, 0.815);
+  margin-top: 12px;
+  margin-left: 5px;
+  font-size: 0.8rem;
+}
+
+.www-image{
+  height: 30px;
+  width: 30px;
+}
+
+.phone-no{
+  font-size: 0.8rem;
+  margin-left: 8px;
+  color: rgba(22, 21, 21, 0.479);
+}
+
+.copyright-para{
+  font-size: 0.8rem;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.row-section{
+  padding-top: 4%;
+  padding-bottom: 2%;
+}

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imag-e-Nation</title>
+
+    <!-- CSS Fonts -->
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Langar&family=Montserrat:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Java Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-------------------- HEADER Section ------------------------>
+
+    <section id="header">
+      <div class="section_heading">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <img src="images/logo-image.png" alt="" id="logo-img">
+          <a class="navbar-brand col lg-6" href="#header"><h3 class="logo">IMAG-E-NATION</h3></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="navbar-link" href="#header">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-link" href="#Services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="row row-intro">
+          <div class="intro-description col-lg-6">
+            <h1>Get your world class high quality images</h1>
+            <p class="download-desc">Download our premium images pack below </p>
+            <button type="button" class="btn btn-primary btn-lg"><img src="images/package-1.png" alt="" class="package-img"> Download</button>
+          </div>
+          <div class="intro-description col-lg-6" id="image-container">
+            <img src="images/intro-image.svg" alt="" id="intro-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------- SERVICES Section--------------------- -->
+
+    <section id="Services">
+      <h2>Our Services</h2>
+      <div class="row row-services">
+        <div class="services-section col-lg-4">
+          <i class="far fa-images fa-4x"></i>
+          <h3 class="services-heading">Imagine and search</h3>
+          <p>Use images from vast range of categories</p>
+        </div>
+
+        <div class="services-section col-lg-4">
+          <i class="fas fa-rupee-sign fa-4x"></i>
+          <h3 class="services-heading">Freelance and Earn</h3>
+          <p>
+            Kick start your freelancing career, submit images and get paid for
+            your creativity
+          </p>
+        </div>
+
+        <div class="services-section col lg-4">
+          <img src="images/1126453.svg" alt="" id="creative-icon" />
+          <h3 class="services-heading">Be a contributor</h3>
+          <p>
+            You can contribute to our gallery to showcase your photography
+            skills
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------GALLERY Section -------------------------->
+
+    <section id="gallery">
+      <h2 class="gallery-heading">Gallery</h2>
+      <!-- carousel -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+
+          <!-- ---------------FIRST SLIDE------------------ -->
+
+          <div class="carousel-item active" id="intro-gallery">
+            <!-- <h3 class="gallery-h3">Get images from the category you love.</h3> -->
+            <div class="row row-image">
+              <!------------- Nature Image--------------- -->
+              <div class="galley-images col-lg-6">
+                <img
+                  class="d-block w-100 image-carousel"
+                  src="images/nature.jpg"
+                  alt="Second slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <b>
+                    <h4 class="image-title">Nature</h4>
+                    <p class="image-description">
+                      Fall in love with nature with these amazing views
+                    </p>
+                  </b>
+                </div>
+              </div>
+               <!------------- Food Image--------------- -->
+              <div class="galley-images col-lg-6">
+                <img
+                  class="d-block w-100 image-carousel"
+                  src="images/food.jpg"
+                  alt="Third slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <b>
+                    <h4 class="image-title">Food</h4>
+                    <p class="image-description">
+                      Checkout these mouth watery delicious food
+                    </p>
+                  </b>
+                </div>
+              </div>
+            </div>
+            <div class="row row-image">
+               <!------------- Sports Image--------------- -->
+              <div class="galley-images col-lg-6">
+                <img
+                  class="d-block w-100 image-carousel"
+                  src="images/sports.jpg"
+                  alt="Second slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <b>
+                    <h4 class="image-title">Sports</h4>
+                    <p class="image-description">
+                      Gear up for your next fitness routine
+                    </p>
+                  </b>
+                </div>
+              </div>
+               <!------------- Dark Image--------------- -->
+              <div class="galley-images col-lg-6">
+                <img
+                  class="d-block w-100 image-carousel"
+                  src="images/dark.jpg"
+                  alt="Third slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <b>
+                    <h4 class="image-title">Dark themes</h4>
+                    <p class="image-description">
+                      Here are some newly clicekd dark images.
+                    </p>
+                  </b>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- ---------------SECOND SLIDE------------------ -->
+          
+        <div class="carousel-item">
+            <div class="row row-image">
+               <!------------- Flowers Image--------------- -->
+              <div class="galley-images col-lg-6">
+                <img
+                  class="d-block w-100 image-carousel"
+                  src="images/flowers.jpg"
+                  alt="Second slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <b>
+                    <h4 class="image-title">Flowers</h4>
+                    <p class="image-description">
+                      Take the feel of your garden here.
+                    </p>
+                  </b>
+                </div>
+              </div>
+               <!------------- Music Image--------------- -->
+              <div class="galley-images col-lg-6">
+                <img
+                  class="d-block w-100 image-carousel"
+                  src="images/music.jpg"
+                  alt="Third slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <b>
+                    <h4 class="image-title">Music</h4>
+                    <p class="image-description">
+                      Feel the tune in your every move
+                    </p>
+                  </b>
+                </div>
+              </div>
+            </div>
+            <div class="row row-image">
+               <!------------- Abstract Image--------------- -->
+              <div class="galley-images col-lg-6">
+                <img
+                  class="d-block w-100 image-carousel"
+                  src="images/abstract.jpg"
+                  alt="Second slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <b>
+                    <h4 class="image-title">Abstract</h4>
+                    <p class="image-description">
+                        Creativity Unleashed
+                    </p>
+                  </b>
+                </div>
+              </div>
+               <!------------- Beach Image--------------- -->
+              <div class="galley-images col-lg-6">
+                <img
+                  class="d-block w-100 image-carousel"
+                  src="images/beach.jpg"
+                  alt="Third slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <b>
+                    <h4 class="image-title">Beach</h4>
+                    <p class="image-description">
+                      Lets Soak in some sunny weather
+                    </p>
+                  </b>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ----------------------CONTACT Section------------------ -->
+
+    <section id="contact">
+      <h3 class="contact-heading">Contact Us</h3>
+      <div class="row row-section">
+        <div class="social-links col-lg-4">
+          <h5 class="social-links-heading">Social links</h5>
+          <a href="#" class="a-contact"><i class="fab fa-facebook-square fa-2x"></i></a>
+          <a href="#" class="a-contact"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#" class="a-contact"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+        <div class="social-links col-lg-4">
+          <h5 class="social-links-heading">Websites</h5>
+          <img src="images/world-wide-web.png" alt="" class="www-image" />
+          <a href="#" class="a-contact">www.imagenation.com</a>
+        </div>
+        <div class="social-links col-lg-4">
+          <h5 class="social-links-heading">Phone no.</h5>
+          <i class="fas fa-phone-square-alt fa-2x"></i>
+          <span class="phone-no">+91-7639727564</span><br />
+          <!-- <p class="phone-no">6378788402</p> -->
+        </div>
+      </div>
+      <hr />
+      <p class="copyright-para">
+        Copyright- ImageNation - Gallery 2021| All rights reserved
+      </p>
+    </section>
+  </body>
+</html>
